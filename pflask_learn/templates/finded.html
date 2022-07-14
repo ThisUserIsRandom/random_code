@@ -1,0 +1,14 @@
+<style> 
+    .body{
+        background-color: aqua;
+        color: red;
+    }
+</style>
+
+<body class="body">
+    {% for i in range(0,wegetlen) %}
+        {% for x in range(0,5) %}
+            <p>{{ listli[x] }} {{ weget[i][x] }}</p>
+        {% endfor %}
+    {% endfor %}
+</body>
