@@ -37,3 +37,12 @@ fun main() {
     }
     
 }
+
+var list = listOf(-1,-2,1,2,3)
+val positives = list.filter { x -> x > 0 } // to filter values
+if(1 in list) // tells the presence 
+val map = mapOf("a" to 1, "b" to 2, "c" to 3)
+
+object Resource {
+    val name = "Name"
+} // this is called a signleton
